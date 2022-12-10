@@ -404,8 +404,9 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), 
-        url('./images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
+    background-color: black;
+    /* background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), 
+        url('./images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg'); */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -468,7 +469,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 38%;
+    font-size: 13px;
 }
 
 .work__list {

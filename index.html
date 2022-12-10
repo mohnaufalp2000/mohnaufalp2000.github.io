@@ -38,20 +38,20 @@
   <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
-    <div class="row">
+    <!-- <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Project</a></li> -->
           <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
-          <li class="nav__item">
+          <!-- <li class="nav__item">
             <a href="#about" class="nav__link">Tentang Saya</a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
+          </li> -->
+        <!-- </ul>
       </nav>
-    </div>
+    </div> -->
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
@@ -59,8 +59,10 @@
           <span> Mohammad Naufal Pratama</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Seorang Mobile Developer Enthusiast yang berasal dari Surabaya, Indonesia.</p>
-        <a href="#contact" class="btn btn--pink">Hubungi Saya</a>
+        <p>UPN "Veteran" Jawa Timur</p>
+        <br>
+        <p>082132265972 | mohammadnp2000@gmail.com</p>
+        <a href="#contact" class="btn btn--pink">Portfolio for: Apple Developer Academy @ UC Cohort 2023</a>
       </div>
     </div>
   </header>
@@ -71,11 +73,13 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Project</h2>
+        <!-- <h2>Project</h2> -->
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
-
+           <div class="row">
+              <h2>Project 1 of 4</h2>
+            </div>
           <div class="work__box">
             <div class="work__text">
               <h3>MyHospital</h3>
@@ -83,6 +87,12 @@
                 Aplikasi yang menampilkan daftar rumah sakit rujukan covid di Indonesia. Menampilkan
                 jumlah ketersediaan kamar berdasarkan kelas kamar di tiap rumah sakit.
               </p>
+              <p>
+                Aplikasi ini dibangun dengan memanfaatkan API Open Source yang telah disediakan. Proses pengambilan data API 
+                menggunakan state management GetX. Menjadi suatu tantangan tersendiri bagi saya untuk menggunakan state managament GetX karena sebelumnya saya terbiasa
+                menggunakan state management provider. 
+              </p>
+              <p><b>Teknologi yang digunakan</b></p>
               <ul class="work__list">
                 <li>Flutter</li>
                 <li>GetX</li>
@@ -92,9 +102,9 @@
                 <a href="#" class="link__text">
                   Desember 2021 - Januari 2022
                 </a>
-                <a href="#">
+                <!-- <a href="#">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="work__image-box">
@@ -102,6 +112,49 @@
             </div>
           </div>
 
+          <div class="row">
+              <h2>Project 2 of 4</h2>
+            </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Fresco</h3>
+              <p>
+                Aplikasi yang dapat mendeteksi kematangan buah yang gambar yang didapat. Untuk pengambilan gambar bisa dilakukan dengan dua cara,
+                yaitu mengambil gambar dari galeri dan mengambil foto dengan kamera secara langsung.
+              </p>
+              <p>
+                Untuk membuat aplikasi ini saya berkolaborasi dengan Machine Learning Engineer, dimana Machine Learning Engineer bertugas untuk membuat model untuk
+                mendeteksi kematangan buah dengan tflite, lalu saya sebagai Android Developer bertugas untuk membuat Aplikasi Android dengan bahasa pemrograman Kotlin dan menggunakan model yang telah dibuat 
+                Team Machine Learning ke dalam aplikasi ini.
+              </p>
+              <p>
+                Pada pembuatan aplikasi, mengalami kesulitan untuk membuat pendeteksi kematangan buah
+                berjalan di Aplikasi Android. Namun, dengan melihat berbagai referensi yang tersedia seperti youtube dan github, saya berhasil mengimplementasikan deteksi buah-buahan pada 
+                Aplikasi Android.
+              </p>
+              <p><b>Teknologi yang digunakan</b></p>
+              <ul class="work__list">
+                <li>Kotlin</li>
+                <li>TensorFlow Lite</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  April 2021 - Juni 2021
+                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-fresco.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="row">
+              <h2>Project 3 of 4</h2>
+            </div>
           <div class="work__box">
             <div class="work__text">
               <h3>Aplikasi Daftar Restoran</h3>
@@ -112,6 +165,7 @@
               <ul class="work__list">
                 <li>Flutter</li>
                 <li>Provider State Management</li>
+                <li>Sqflite Database </li>
               </ul>
 
               <div class="work__links">
@@ -121,13 +175,51 @@
                 <a href="#" target="" class="link__text">
                   September - Oktober 2021
                 </a>
-                <a href="https://github.com/mohnaufalp2000/Dicoding-Submission-Fundamental-Flutter" title="View Source Code" target="_blank">
+                <!-- <a href="https://github.com/mohnaufalp2000/Dicoding-Submission-Fundamental-Flutter" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="work__image-box">
               <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="row">
+              <h2>Project 4 of 4</h2>
+            </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Shamo App</h3>
+              <p>
+                Aplikasi E-Commerce yang menampilkan dan menjual beberapa produk sepatu. Pada aplikasi ini calon pembeli dapet memanfaatkan fitur chat
+                untuk menanyakan ketersediaan barang serta menanyakan ukuran sepatu yang tersedia. Pengguna dapat menambahkan produk sepatu ke dalam daftar favorit.
+              </p>
+              <p>
+                Aplikasi ini terintegrasi dengan SQL Database sebagai backend yang dibangun dengan framework Laravel versi 8. Database berisi data akun pengguna aplikasi, daftar produk, daftar gambar, dan daftar kategori produk.
+                Lalu, aplikasi ini juga terintegrasi dengan Firebase sebagai Realtime-Database yang digunakan untuk fitur chat pada aplikasi ini.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>Provider State Management</li>
+                <li>Firebase</li>
+                <li>Laravel 8</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Selengkapnya <span>&rarr;</span>
+                </a> -->
+                <a href="#" target="" class="link__text">
+                  Februari - Maret 2022
+                </a>
+                <!-- <a href="https://github.com/mohnaufalp2000/Dicoding-Submission-Fundamental-Flutter" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project4.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
@@ -259,9 +351,9 @@
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
+  <!-- <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
+  </a> -->
   <script src="./index.js"></script>
 </body>
 
